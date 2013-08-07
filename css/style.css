@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+a {color: rgba(209,174,174,0.98);}
+
+/*
+기본 테이블
+*/
+
+table{border-collapse:collapse; margin: 10px;}
+table tr th {border:1px solid #ddd; padding:4px; background-color:#eee;}
+table tr td {border:1px solid #ddd; padding:4px; text-align:center;}
+table tr td.center {text-align:center;}
+table tr td.right {text-align:right;}
+table tr.odd {background-color: #ffffff;}
+table tr.even {background-color: #fbfbfb;}
+table tr.selected {background-color: #ebebff;}
+table .highlight{background:#a2eda9;}
+/*
+폼
+*/
+
+.default {background-color:#b5b5b5;
+			color:#000;
+			font-family:"궁서";}
+
+.rootArea {/*background-color:#0f0;*/
+				border:1px solid #ccc;
+				width: 800px;
+				height: 600px;
+/*
+				min-width: 480px;
+				max-width: 800px;
+				min-height: 320px;
+				max-height: 600px;
+*/
+				 margin:0 auto;}
+
+.noticeBox {	border:1px solid #ccc;
+				min-width: 480px;
+				max-width: 800px;
+				 margin:0 auto;
+				 margin-bottom: 15px;}
+
+.box {border:1px solid #ccc;
+		padding:4px;
+		margin:5px;}
+
+.characterBox { border:3px solid #ccc;
+				background: #a9d3b2;
+/* 				padding:4px; */
+				width: 300px;
+/* 				margin:5px; */	
+}
+
+.menuBox {border:3px solid #ccc;
+				background: #a9c2d4;
+
+/* 				width: 300px; */
+}
+.messageArea{
+			border:3px solid #ccc;
+				background: #d9e1bd;
+				width: 800px;
+
+}
+.messageArea .nameBox{
+				border:3px solid #ccc;
+				font-size: 1.4em;
+				font-weight: bold;
+				background: #e3b1ea;
+				float: left;
+	
+}
+.messageArea .messageBox{
+				border:3px solid #ccc;
+				background: #cae2f2;
+				float: left;
+	
+}
+.messageArea .nextBox{
+			border:3px solid #ccc;
+				background: #d9e1bd;
+				float: right;
+
+}
+
+
+
+.contentsArea {background:#d5c1ab; 
+				width:100%; 
+				height:1000px;}
