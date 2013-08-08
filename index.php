@@ -14,7 +14,12 @@ include_once("setting/connect.php");
 		}
 	?>
 	</div>
-	<div class="rootArea">
+	<div class="rootArea"  <?php
+	$textNumber = $_GET['messageNumber'];
+if($textNumber == 12){
+	echo 'style="background-image:url(http://img96.imageshack.us/img96/8159/4gl7.jpg);"';
+}
+?>>
 	test text
 		<?php 
 			if(!$_SESSION['checkLogin']){
