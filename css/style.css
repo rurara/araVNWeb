@@ -21,7 +21,8 @@ table .highlight{background:#a2eda9;}
 
 .default {background-color:#b5b5b5;
 			color:#000;
-			font-family:"궁서";}
+			/*font-family:"궁서";*/
+			}
 
 .rootArea {/*background-color:#0f0;*/
 				border:1px solid #ccc;
@@ -45,23 +46,31 @@ table .highlight{background:#a2eda9;}
 		padding:4px;
 		margin:5px;}
 
+
+.backgroundArea {
+	width: 800px;
+	height: 600px;
+}
 .characterBox { border:3px solid #ccc;
-				background: #a9d3b2;
+/* 				background: #a9d3b2; */
 /* 				padding:4px; */
 				width: 300px;
+				height:400px;
+				float:left;
 /* 				margin:5px; */	
 }
 
 .menuBox {border:3px solid #ccc;
 				background: #a9c2d4;
-
+				float:right;
 /* 				width: 300px; */
 }
 .messageArea{
 			border:3px solid #ccc;
 				background: #d9e1bd;
 				width: 800px;
-
+				height:200px;
+				float:left;
 }
 .messageArea .nameBox{
 				border:3px solid #ccc;
@@ -83,8 +92,6 @@ table .highlight{background:#a2eda9;}
 				float: right;
 
 }
-
-
 
 .contentsArea {background:#d5c1ab; 
 				width:100%; 
